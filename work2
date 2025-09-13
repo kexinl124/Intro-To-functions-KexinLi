@@ -1,0 +1,9 @@
+import turtle
+from turtle import *
+t=Turtle()
+def equal(x):
+   for i in range(3):
+      t.forward(90)
+      t.left(120)
+equal(90)
+turtle.done()
