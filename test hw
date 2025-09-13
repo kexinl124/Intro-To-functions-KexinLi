@@ -1,0 +1,17 @@
+#hw 1
+
+import turtle
+from turtle import *
+t=Turtle()
+
+def drawSquare(irange):
+    length = 5  # start with length 5
+    for i in range (irange):
+        for _ in range(4): #four time to compelete a square
+            t.forward(length) #length = 5 everytime
+            t.right(90) #turn right 90 degree
+        t.right(5) #each time turning 5 degree
+        length += 5 #each time increase 5 length
+
+drawSquare (60) #total 60 square
+
