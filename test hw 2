@@ -1,0 +1,19 @@
+#hw2
+import turtle
+from turtle import *
+t=Turtle()
+
+def drawStar(length):
+    for _ in range(5): #ffive time to compelete a square
+        t.forward(length) #straight line
+        t.right(144) # turn right 144 degree
+
+def SpiralStar(x):
+    length = 25 # start with 25
+    for i in range(x): #draw x star 
+        drawStar(length)
+        t.right(10) #each time turn 10 degree
+        length += 5 #each time increase 5 
+
+SpiralStar (30) #Total 30 star
+
