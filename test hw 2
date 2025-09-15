@@ -1,4 +1,4 @@
-#hw2
+#2 loops
 import turtle
 from turtle import *
 t=Turtle()
