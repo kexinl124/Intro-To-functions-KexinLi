@@ -4,7 +4,7 @@ from turtle import *
 t=Turtle()
 
 def drawStar(length):
-    for _ in range(5): #ffive time to compelete a star
+    for _ in range(5): #five time to compelete a star
         t.forward(length) #straight line
         t.right(144) # turn right 144 degree
 
