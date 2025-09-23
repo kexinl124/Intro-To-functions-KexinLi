@@ -57,8 +57,17 @@ for student in students:
     if student=="Mason":
         print ("Found Mason")
         found=True """
-name="Cadee"
+""" name="Cadee"
 #print(name(0))
 for letter in name:
     for letter in name:
-        print(letter)
+        print(letter) """
+#name=input("What's your name")
+#print(name)
+""" def add(x,y):
+    return x + y
+z=add(5,15)
+print(z) """
+a=int('5')
+bill=input("How much was the bill?")
+print(int(bill)*.15)
