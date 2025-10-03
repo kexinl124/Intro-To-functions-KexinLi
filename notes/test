@@ -1,0 +1,4 @@
+def language(x):
+ x=input("Write a sentence: ")
+ for i in range (x):
+  print(i)
