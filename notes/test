@@ -2,13 +2,13 @@ def lang(x):
  for i in x: 
    print(i)
 x = input("Write a sentence: ")
-for t in x:
-    print(t)
-for s in x:
-    print(s)
-if t.count > s.count:
+t = 0
+T = 0
+s = 0 
+S = 0
+if t > s or T > S or T > s or t>S:
    print("English")
-elif t < s:
+elif t < s or T< S or t<S or T<s:
    print("French")
 else:
    print("French")

@@ -9,7 +9,7 @@ print(z)
 
 a=int('5')
 bill=input("How much was the bill?")
-print(int(bill)*.15)
+print(int(bill)*.15) 
 
 name="ya"
 print(f"his name is (name)") """

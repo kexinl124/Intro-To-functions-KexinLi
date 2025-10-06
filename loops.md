@@ -80,6 +80,7 @@ addSquares(5)
 ## Assesment
 
 1.Make a function to draw 60 squares, turning 5 degress after each square and making each successive square bigger. Start at length 5 and increment 5 units every square. 
+def draw_Square(iRange):
 
 ![image](spiral1-5.PNG)
 
