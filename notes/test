@@ -3,12 +3,10 @@ def lang(x):
    print(i)
 x = input("Write a sentence: ")
 t = 0
-T = 0
 s = 0 
-S = 0
-if t > s or T > S or T > s or t>S:
+if t > s :
    print("English")
-elif t < s or T< S or t<S or T<s:
+elif t < s :
    print("French")
 else:
    print("French")
