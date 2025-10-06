@@ -1,0 +1,13 @@
+def same_park_spot(s):
+ print("How much same occupied parking spot is in yesterday and today? ")
+s=int(input())
+a=input("Give a example yesterday's parking lot(. = unoccupied and C = occupied):")
+b=input("Give a example today's parking lot(. = unoccupied and C = occupied):")
+x= 0
+for i in range(s):
+    if a =="C" and b =="C":
+        x+=1
+print(x)
+
+
+
