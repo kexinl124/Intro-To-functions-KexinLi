@@ -1,5 +1,14 @@
-def language(x):
- x=input("Write a sentence: ")
- if 
- for i in range (x):
-  print(i)
+def lang(x):
+ for i in x: 
+   print(i)
+x = input("Write a sentence: ")
+for t in x:
+    print(t)
+for s in x:
+    print(s)
+if t.count > s.count:
+   print("English")
+elif t < s:
+   print("French")
+else:
+   print("French")
