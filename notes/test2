@@ -1,11 +1,10 @@
-N = input(int())
-a = input("yesterday's parking lot(. = unoccupied and C = occupied):")
-b = input("today's parking lot(. = unoccupied and C = occupied):")
-same = 0
-for i in range (N):
-    if a =="C" and b =="C":
-     same = same + 1
-print(same)
+def spaces(y,t):
+ for i in range (spaces):
+    if y == "C" and t == "C":
+     i+=1
+ print(i)
+
+ spaces("CC..C,.CC..")
 
 
 
