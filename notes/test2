@@ -1,11 +1,12 @@
 def spaces(y,t):
-
- for i in range (spaces):
+ y=0
+ t=0
+ for i in range (y,t):
     if y == "C" and t == "C":
      i+=1
  print(i)
 
- spaces("CC..C,.CC..")
+spaces("CC..C", ".CC..")
 
 
 
