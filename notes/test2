@@ -1,4 +1,5 @@
 def spaces(y,t):
+
  for i in range (spaces):
     if y == "C" and t == "C":
      i+=1

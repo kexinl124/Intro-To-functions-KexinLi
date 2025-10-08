@@ -1,12 +1,15 @@
 def lang(x):
+ t=0
+ s=0
  for i in x: 
-   print(i)
-x = input("Write a sentence: ")
-t = 0
-s = 0 
-if t > s :
+   if i == "t" or i == "T":
+     t+=1
+   elif i == "s" or i == "S":
+     s+=1
+ if t > s :
    print("English")
-elif t < s :
+ elif t < s :
    print("French")
-else:
+ else:
    print("French")
+ x=input("")
