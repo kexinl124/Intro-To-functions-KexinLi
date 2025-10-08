@@ -1,7 +1,6 @@
 def spaces(y,t):
- y=0
- t=0
- for i in range (y,t):
+ 
+ for i in range ():
     if y == "C" and t == "C":
      i+=1
  print(i)
