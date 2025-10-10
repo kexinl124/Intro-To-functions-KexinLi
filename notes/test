@@ -6,10 +6,11 @@ def lang(x):
      t+=1
    elif i == "s" or i == "S":
      s+=1
-     if t > s :
-      print("English")
-     elif t < s :
-      print("French")
-     else:
-      print("French")
+
+   if t > s :
+       print("English")
+   elif t < s :
+       print("French")
+   else:
+       print("French")
 lang("The red cat sat on the mat.Why are you so sad cat?Don't ask that.")
