@@ -1,3 +1,25 @@
-def honi_blocks():
+""" def MC(n,s,a):
+  correct=0
+  for i in range(n):
+   if s[i] == a[i]:
+     correct+=1 """
+""" 
+def password(x):
+    upper = 0
+    lower = 0
+    digits = 0
+    if len(x)>6 and len(x)<13:
+      for char in x:
+        if char.islower():
+            lower += 1
+      if upper>3 and lower >2 and digits> 1 """
 
- honi_blocks("MAGNUS")
+""" def wizard (o, n, duels):
+    owner = o
+    number_of_owners=1
+    for i in range(n):
+        if duels[1]==owner:
+            owner=duels[0]
+            number_of_owners +=1
+        for i in range(n):
+            if duels[i][1] == owner """
