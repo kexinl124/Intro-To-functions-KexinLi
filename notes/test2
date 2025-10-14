@@ -2,7 +2,7 @@ def spaces(n,y,t):
  both=0
  for i in range (n):
     
-    if y[i] == "C" and t[i] == "C":
+    if y == "C" and t == "C":
      both+=1
  return both
 
